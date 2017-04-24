@@ -1108,7 +1108,7 @@
 	/*-----F O O T E R-----*/	
 	.navFooter {
 		text-align: center;
-		padding: 0 23%;
+		padding: 0 25%;
 	}
 
 	.navFooter ul {
@@ -1199,6 +1199,12 @@
 	}
 
 	.navFooter {
+		padding: 0 23%;
+	}	
+}
+
+@media only screen and (max-width : 493px) {
+	.navFooter {
 		padding: 0 20%;
 	}	
 }
@@ -1227,7 +1233,7 @@
 	}
 
 	.navFooter {
-		padding: 0 11%;
+		padding: 0 11.5%;
 	}
 }
 
@@ -1280,7 +1286,7 @@
 	} 
 
 	.navFooter {
-		padding: 0 3%;
+		padding: 0 8%;
 	}
 
 	.popupForm {
