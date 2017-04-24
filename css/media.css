@@ -573,6 +573,12 @@
 		width: 145px;
 		height: 30px;
 	}
+
+	/*----- N A V I G A T I O N -----*/
+	.dropdownTop li a {
+		width: 156px;
+	}
+	/*----- /N A V I G A T I O N -----*/
 	/*----- /H E A D E R -----*/
 	
 	/*----- M A I N -----*/
