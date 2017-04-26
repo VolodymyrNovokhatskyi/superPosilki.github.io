@@ -19,6 +19,10 @@ h4 {
 	color: #424242;
 }
 
+span, a {
+	display: inline-block;
+}
+
 .padding {
 	padding: 0px;
 }
@@ -48,7 +52,6 @@ h4 {
 }
 
 .registrationSmall a {
-	display: inline-block;
 	color: #fff;
 	margin: 9px 0px;
 	font-size: 11px;
@@ -63,7 +66,6 @@ h4 {
 
 .topLineLeft span {
 	font-size: 16px;
-	display: inline-block;
 	margin-top: 10px;
 }
 
@@ -125,7 +127,6 @@ h4 {
 }
 
 .phone span {
-	display: inline-block;
 	background: url(../img/sprite.png) no-repeat -1px -1px;
 	width: 18px;
 	height: 18px;
@@ -160,7 +161,6 @@ h4 {
 }
 
 .email {
-	display: inline-block;
 	width: 15px;
 	height: 10px;
 	background: url(../img/sprite.png) no-repeat -244px -2px;
@@ -170,7 +170,6 @@ h4 {
 
 
 .icq {
-	display: inline-block;
 	background: url(../img/sprite.png) no-repeat -20px -1px;
 	width: 17px;
 	height: 18px;
@@ -179,7 +178,6 @@ h4 {
 }
 
 .skype {
-	display: inline-block;
 	background: url(../img/sprite.png) no-repeat -59px -1px;
 	width: 19px;
 	height: 19px;
@@ -198,7 +196,6 @@ h4 {
 }
 
 .headerOrder {
-	display: inline-block;
 	width: 145px;
 	height: 34px;
 	background: url(../img/buttonOrder2.png);
@@ -215,11 +212,9 @@ h4 {
 .headerButtons p a {
 	color: #0073bb;
 	font-size: 13px;
-	width: 46%;
 }
 
 .calculator {
-	display: inline-block;
 	width: 10px;
 	height: 13px;
 	background: url(../img/sprite.png) no-repeat -261px -2px;
@@ -246,7 +241,6 @@ h4 {
 .registration a {
 	font-size: 12px;
 	color: #fff;
-	display: inline-block;
 	margin: 10px 0px;
 	padding: 0px 10px;
 	outline: none;
@@ -260,18 +254,7 @@ h4 {
 	padding-left: 6px;
 }
 
-.registrationIcon {
-	display: inline-block;
-	border: none;
-	background-color: transparent;
-	font-size: 22px;
-	color: #fff;
-	padding-left: 15px;
-	vertical-align: -15%
-}
-
 .russian {
-	display: inline-block;
 	width: 14px;
 	height: 11px;
 	background: url(../img/sprite.png) no-repeat -42px -3px;
@@ -304,7 +287,6 @@ h4 {
 }
 
 .middlePartHeader span {
-	display: inline-block;
 	font-size: 14px;
 }
 
@@ -323,7 +305,7 @@ h4 {
 	text-align: center;
 }
 
-.bottomPartHeader span, .bottomPartHeader p  {
+.bottomPartHeader p  {
 	display: inline-block;
 }
 
@@ -341,7 +323,7 @@ h4 {
 }
 
 .bottomPartHeader .calculatorLink {
-	vertical-align: 260%
+	vertical-align: 260%;
 }
 
 .bottomPartHeader .calculatorLink a {
@@ -392,7 +374,6 @@ h4 {
 }
 
 .nav ul li .point {
-	display: inline-block;
 	background: url(../img/sprite.png)no-repeat -99px -2px;
 	width: 5px;
 	height: 4px;
@@ -401,7 +382,6 @@ h4 {
 }
 
 .nav ul li a {
-	display: inline-block;
 	font-size: 14px;
 	color: #fff;
 	text-transform: uppercase;
@@ -418,7 +398,6 @@ h4 {
 }
 
 .more {
-	display: inline-block;
 	font-size: 14px;
 	text-transform: uppercase;
 	padding: 16.5px 23px!important;
@@ -430,7 +409,6 @@ h4 {
 }
 
 .cookie {
-	display: inline-block;
 	width: 13px;
 	height: 13px;
 	background: url(../img/sprite.png) no-repeat -274px -2px;
@@ -510,7 +488,6 @@ h4 {
 }
 
 .calculator2 {
-	display: inline-block;
 	width: 10px;
 	height: 13px;
 	background: url(../img/sprite.png)no-repeat -291px -2px;
@@ -871,7 +848,6 @@ h4 {
 }
 
 .magazinesBorder {
-	display: inline-block;
 	padding-right: 5px;
 	margin-right: 7px;
 	border-right: 1px solid #0073bb;
@@ -914,7 +890,6 @@ h4 {
 }
 
 .dashedLineReview {
-	display: inline-block;
 	border-bottom: 1px dashed #dedede;
 	width: 23%;
 	vertical-align: 130%;
@@ -976,12 +951,7 @@ h4 {
 	margin: 42px 0px 16px 0;
 }
 
-.main5 a {
-	display: inline-block;
-}
-
 .payment {
-	display: inline-block;
 	width: 140px;
 	height: 72px;
 	margin: 5px 7px;
@@ -1136,7 +1106,6 @@ h4 {
 }
 
 .facebookFooter span {
-	display: inline-block;
 	font-family: 'Lucida Console', 'PTSansRegular', Arial, sans-serif;
 	color: #978997;
 }
@@ -1267,7 +1236,6 @@ h4 {
 }
 
 .typoList li span {
-	display: inline-block;
 	padding-left: 15px;
 }
 
@@ -1293,10 +1261,6 @@ h4 {
 
 .white {
 	background-color: #fff;
-}
-
-.typoRow span {
-	display: inline-block;
 }
 
 .typoRow .left {
@@ -1516,7 +1480,6 @@ h4 {
 }
 
 .weightLink, .prompt {
-	display: inline-block;
 	padding-left: 15px;
 	font-size: 11px;
 }
@@ -1612,7 +1575,6 @@ h4 {
 }
 
 .inputLabel span {
-	display: inline-block;
 	margin-bottom: 10px;
 }
 
@@ -1690,10 +1652,6 @@ h4 {
 	margin-bottom: 28px;
 }
 
-.lastSectionForm span {
-	display: inline-block;
-}
-
 .lastSectionFirst {
 	font-size: 14px;
 	margin-right: 12px;
@@ -1716,7 +1674,6 @@ h4 {
 }
 
 .buttonOrder span {
-	display: inline-block;
 	font-size: 18px;
 } 
 
@@ -1751,19 +1708,23 @@ h4 {
 .mainContentVoprosu h4 a {
 	font-size: 18px;
 	color: #0073bb;
-	margin-bottom: 30px;
 	text-decoration: none;
+	line-height: 1.2;
 }
 
 .mainContentVoprosu h4 a span {
 	border-bottom: 1px dashed #0073bb;
 }
 
-.mainContentVoprosu .text {
+.mainContentVoprosu .textVoprosu {
 	font-size: 12px;
 	line-height: 18px;
 	color: #5b5b5b;
 	padding: 0px 0px 35px 34px;
+}
+
+.questionHeading {
+	display: inline;
 }
 
 .mainContentVoprosu .bottomContent {
@@ -1801,7 +1762,6 @@ h4 {
 }
 
 .navFooter ul li .pointFooter {
-	display: inline-block;
 	background: url(../img/sprite.png)no-repeat -106px -2px;
 	width: 4px;
 	height: 3px;
@@ -1810,14 +1770,9 @@ h4 {
 }
 
 .navFooter ul li a {
-	display: inline-block;
 	color: #fff;
 	text-transform: uppercase;
 	padding: 29px 0px 31px 0px;
-}
-
-.superPosilka {
-	display: inline-block;
 }
 
 .superPosilka1 {
@@ -1893,7 +1848,6 @@ h4 {
 }
 
 .socials a {
-	display: inline-block;
 	margin-right: 0px;
 	margin-bottom: 17px;
 	width: 34px;
@@ -1972,16 +1926,11 @@ h4 {
 	left:-177px;
 }
 
-.button1, .button2 {
-	display: inline-block;
-}
-
 .button2 {
 	margin-right: 30px;
 }
 
 .popup a {
-	display: inline-block;
 	font-size: 16px;
 	color: #fff;
 	text-decoration: none;
@@ -1992,10 +1941,6 @@ h4 {
 	box-shadow: inset 1px 0 #298cc9;
 	height: 46px;
 	padding: 12px 10px 5px 5px;
-}
-
-.popup span {
-	display: inline-block;
 }
 
 .button1 span {
@@ -2112,7 +2057,6 @@ h4 {
 }
 
 .cocialLinks {
-	display: inline-block;
 	margin-right: 4px;
 	width: 32px;
 	height: 32px;

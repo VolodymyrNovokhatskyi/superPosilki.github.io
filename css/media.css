@@ -1,6 +1,3 @@
-/*==========  Desktop First Method  ==========*/
-
-/* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 	.popup {
 		display: none;
@@ -53,7 +50,6 @@
 	/*----- /M A I N ------*/
 }
 
-/* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 	.hidden900 {
 		display: none;
@@ -414,7 +410,6 @@
 	/*-----/F O O T E R-----*/
 }
 
-/* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 	.socials a {
 		display: inline-block;
@@ -552,7 +547,6 @@
 	/*-----/F O O T E R-----*/
 }
 
-/* Extra Small Devices, Phones */
 @media only screen and (max-width : 670px) {
 	.hidden600 {
 		display: none!important;
@@ -829,7 +823,6 @@
 	/*----- /F O O T E R -----*/
 }
 
-/* Extra Small Devices, Phones */
 @media only screen and (max-width : 590px) {
 	.hidden320 {
 		display: none!important;
@@ -1308,7 +1301,6 @@
 	}
 }
 
-/* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 	.firstRowHeader {
 		margin-left: 8%;
@@ -1323,18 +1315,6 @@
 	}
 }
 
-/*==========  Mobile First Method  ==========*/
-
-/* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {
-
-}
-
-@media only screen and (min-width : 360px) {
-
-}
-
-/* Extra Small Devices, Phones */
 @media only screen and (min-width : 591px) {
 	.visible320 {
 		display: none!important;
@@ -1351,19 +1331,10 @@
 	}
 }
 
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-}
-
-/* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
 	.visible900 {
 		display: none!important;
 	}
 }
 
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
-
-}
 
