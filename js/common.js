@@ -6,6 +6,10 @@ $(document).ready(function() {
 		$(".dropdownTop").slideToggle();
 	});
 
+ $(".dropdown").mouseleave(function () {
+    $(".dropdownTop").slideUp('slow');
+});
+
 	//carouselTop
 	$(".prev-slide").click(function(){
     $("#myCarousel").carousel('prev');
